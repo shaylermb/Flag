@@ -8,8 +8,8 @@ public class Rectangle {
 	
 
 	public Rectangle(Point toppoint, int length, int height, Color color, double scale){
-		this.length = (int)(length * scale);
-		this.height = (int)(height * scale);
+		this.length = length;
+		this.height = height;
 		this.color = color;
 		this.toppoint = toppoint;
 	}
